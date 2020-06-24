@@ -9,15 +9,12 @@
 import UIKit
 
 class WelcomeVC: UIViewController {
-
-    @IBOutlet weak var bgimg: UIImageView!
-    @IBOutlet weak var swoosh: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    @IBAction func unwindFromSkillVC(segue:UIStoryboardSegue){
+    @IBAction func unwindFromLeageVC(segue:UIStoryboardSegue){
         
     }
 
